@@ -1,3 +1,5 @@
+package TemaLab2;
+
 public class TemaProblema6 {
     public static void main(String[] args) {
 
