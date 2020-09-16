@@ -1,13 +1,39 @@
 package AnimalRescuer;
 
 public class AnimalFood {
-    String name = "bones";
-    String stockAvailability = "yes";
-    int quantity = 40000;
-    float price = 2f;
+    private String animalFoodName ;
+    private String stockAvailability ;
+    private int quantity ;
+    private float price ;
 
-    public void sell () {
-        System.out.println("Bones for sales");
+    public String getAnimalFoodNameName(){
+        return animalFoodName;
     }
+    public void setAnimalFoodNameName(String Name){
+        this.animalFoodName = animalFoodName;
+    }
+    public String getStockAvailability(){
+        return stockAvailability;
+    }
+    public void setStockAvailability(String stockAvailability){
+        this.stockAvailability = stockAvailability;
+    }
+    public int getQuantity(){
+        return quantity;
+    }
+    public void setQuantity(int quantity){
+        this.quantity = quantity;
+    }
+    public float getPrice() {
+        return price;
+    }
+    public void setPrice ( float price){
+        this.price = price;
+    }
+
+
+
+
+
 
 }

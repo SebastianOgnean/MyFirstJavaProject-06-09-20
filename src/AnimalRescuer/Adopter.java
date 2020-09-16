@@ -1,20 +1,30 @@
 package AnimalRescuer;
 
 public class Adopter {
-    String name = "Mike";
-    float age = 32f;
-    String moneyAmount = "2300$";
+    private String adopterName ;
+    private float age ;
+    private float moneyAmount ;
 
-    public void run () {
-        System.out.println("Is running");
+    public String getAdopterName(){
+        return adopterName;
     }
-    public void sleep () {
-        System.out.println("Is sleeping");
+    public void setAdopterName(String adopterName){
+        this.adopterName = adopterName;
     }
-    public void eat () {
-        System.out.println("Is eating a pizza");
+    public float getMoneyAmount(){
+        return moneyAmount;
     }
-    public void walk () {
-        System.out.println("Is walking with jack");
+    public void setMoneyAmount(float moneyAmount1){
+        this.moneyAmount = moneyAmount;
     }
+    public float getAge(){
+        return age;
+    }
+    public void setAge(float age){
+        this.age = age;
+    }
+
+
+
+
 }

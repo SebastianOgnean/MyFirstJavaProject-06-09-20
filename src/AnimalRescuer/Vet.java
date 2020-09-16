@@ -1,16 +1,20 @@
 package AnimalRescuer;
 
 public class Vet {
-    String name = "John";
-    String specialization = "surgery";
+    private String vetName ;
+    private String specialization ;
 
-    public void surgery () {
-        System.out.println("Is taking surgeries");
+    public String getVetNameame(){
+        return vetName;
     }
-    public void sleep () {
-        System.out.println("Is sleeping after work");
+    public void setVetNameName(String vetName){
+        this.vetName = vetName;
     }
-    public void eat () {
-        System.out.println("Is eating in break");
+    public String getSpecialization(){
+        return specialization;
     }
+    public void setSpecialization(String specialization){
+        this.specialization = specialization;
+    }
+
 }

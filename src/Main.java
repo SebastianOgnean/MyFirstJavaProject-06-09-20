@@ -1,41 +1,17 @@
 public class Main {
 
     public static void main(String[] args) {
-
-        System.out.println("Rezultatul adunarii este: " + adunare(12,6));
-        System.out.println("Rezultatul scaderii este: " + scadere(12,6));
-        System.out.println("Rezultatul inmultirii este: " + inmultire(12,6));
-        System.out.println("Rezultatul impartirii este: " + impartire(12,6));
-
-    }
-
-    public static int adunare(int primulNumar, int alDoileaNumar){
-
-        int rezultat = primulNumar + alDoileaNumar;
-
-        return rezultat;
-
-    }
-    public static float scadere(float primulNumar, float alDoileaNumar){
-
-        float rezultat = primulNumar - alDoileaNumar;
-
-        return rezultat;
-
-    }
-    public static int inmultire(int primulNumar, int alDoileaNumar){
-
-        int rezultat = primulNumar * alDoileaNumar;
-
-        return rezultat;
-
-    }
-    public static int impartire(int primulNumar, int alDoileaNumar){
-
-        int rezultat = primulNumar / alDoileaNumar;
-
-        return rezultat;
-
+        MathOperations math = new MathOperations();
+        //System.out.println(math.adunare(12,6));
+        //System.out.println(math.scadere(152,68));
+        //System.out.println(math.inmultire(25,46));
+        //System.out.println(math.impartire(99, 12));
+        LogicalOperations logic = new LogicalOperations();
+        int biggest = logic.checkBiggerNumber(341,5463);
+        //System.out.println("The bigger number is: " +biggest);
+        //System.out.println(logic.verifyText("FastTrackIT"));
+        //System.out.println(logic.VerifyTextAndNumber("FastTrackIT",2));
+        System.out.println(logic.VerifyIfWinterIsComing(14));
     }
 
 }

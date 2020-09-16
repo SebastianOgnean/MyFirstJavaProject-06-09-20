@@ -1,22 +1,57 @@
 package AnimalRescuer;
 
 public class Animal {
-    String name = "Ghost";
-    String color = "black";
-    float age = 2.65f;
-    float weight = 40f;
-    int healthLevel = 10;
-    int moodLevel = 5;
-    String favoriteFood = "meat";
-    String FavRecreationActivity = "sleep";
+    private String animalName ;
+    private String animalColor ;
+    private float animalAge ;
+    private float animalWeight ;
+    private int moodLevel ;
+    private String favoriteFood ;
+    private String FavRecreationActivity ;
 
-    public void run () {
-        System.out.println("Is running with the pack");
+    public String getAnimalName(){
+        return animalName;
     }
-    public void sleep () {
-        System.out.println("Is sleeping after a hunting");
+    public void setAnimalName(String animalName){
+        this.animalName = animalName;
     }
-    public void eat () {
-        System.out.println("Is eating some meat");
+    public String getAnimalColorColor(){
+        return animalColor;
     }
+    public void setAnimalColor(String animalColor){
+        this.animalColor = animalColor;
+    }
+    public float getAnimalAge(){
+        return animalAge;
+    }
+    public void setAnimalAge(float animalAge){
+        this.animalAge = animalAge;
+    }
+    public float getAnimalWeightWeight() {
+        return animalWeight;
+    }
+    public void setAnimalWeightWeight ( float animalWeight){
+        this.animalWeight = animalWeight;
+    }
+    public int getMoodLevel(){
+        return moodLevel;
+    }
+    public void setMoodLevel(int moodLevel){
+        this.moodLevel = moodLevel;
+    }
+    public String getFavoriteFood(){
+        return favoriteFood;
+    }
+    public void setFavoriteFood(String favoriteFood){
+        this.favoriteFood = favoriteFood;
+    }
+    public String getFavRecreationActivity(String favRecreationActivity){
+        return favRecreationActivity;
+    }
+    public void setFavRecreationActivity(String favRecreationActivity){
+        this.FavRecreationActivity = favRecreationActivity;
+    }
+
+
+
 }

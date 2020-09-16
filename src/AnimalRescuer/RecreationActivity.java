@@ -1,9 +1,12 @@
 package AnimalRescuer;
 
 public class RecreationActivity {
-    String name = "sleep";
+    private String recrActivName ;
 
-    public void nap () {
-        System.out.println("Everyone is taking a nap");
+    public String getRecrActivNameName(){
+        return recrActivName;
+    }
+    public void setRecrActivNameName(String recrActivName){
+        this.recrActivName = recrActivName;
     }
 }
