@@ -19,14 +19,12 @@ public class Dog {
          this.color = color;
          }
          public float getAge(){
-         return age;
-         }
+         return age; }
          public void setAge(float age){
          this.age = age;
          }
          public float getWeight() {
-         return weight;
-         }
+         return weight; }
          public void setWeight ( float weight){
              this.weight = weight;
          }

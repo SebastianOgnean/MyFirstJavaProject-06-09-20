@@ -11,7 +11,24 @@ public class Main {
         //System.out.println("The bigger number is: " +biggest);
         //System.out.println(logic.verifyText("FastTrackIT"));
         //System.out.println(logic.VerifyTextAndNumber("FastTrackIT",2));
-        System.out.println(logic.VerifyIfWinterIsComing(14));
+        //System.out.println(logic.VerifyIfWinterIsComing(14));
+        //logic.getNumber(-89,-100);
+        //logic.getNumber2(94,100);
+        //logic.get2Numbers(5,8);
+        //logic.get2NumbersAndVerifyThem(9,8);
+        //logic.numerePare();
+        //logic.numereIpare();
+        //logic.getANumber(99);
+        //logic.getANumber2(-97);
+        //logic.getTwoNumbers(6,10);
+        logic.getTwoNumbersAndVerifyThem(4,2);
+
+
+
+
     }
+
+
+
 
 }

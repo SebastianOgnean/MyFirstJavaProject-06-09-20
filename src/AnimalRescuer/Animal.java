@@ -1,6 +1,7 @@
 package AnimalRescuer;
 
 public class Animal {
+    
     private String animalName ;
     private String animalColor ;
     private float animalAge ;

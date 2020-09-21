@@ -1,12 +1,5 @@
 package AnimalRescuer;
 
-public class RecreationActivity {
-    private String recrActivName ;
+public class RecreationActivity extends Activities{
 
-    public String getRecrActivNameName(){
-        return recrActivName;
-    }
-    public void setRecrActivNameName(String recrActivName){
-        this.recrActivName = recrActivName;
-    }
 }
