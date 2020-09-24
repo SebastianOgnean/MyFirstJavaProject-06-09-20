@@ -21,7 +21,17 @@ public class Main {
         //logic.getANumber(99);
         //logic.getANumber2(-97);
         //logic.getTwoNumbers(6,10);
-        logic.getTwoNumbersAndVerifyThem(4,2);
+        //logic.getTwoNumbersAndVerifyThem(7,6);
+        int [] numere = new int[100];
+        //logic.numerePare();
+        int [] numere2 = {2,3,4};
+        logic.mediaNumerelor(numere2);
+
+
+
+
+
+
 
 
 
