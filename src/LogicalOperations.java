@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class LogicalOperations {
 
     public String checkTextAndNumber(String input, int number) {
@@ -164,14 +167,60 @@ public class LogicalOperations {
 
     public float mediaNumerelor(int [] numere2){
         int suma = 0;
-        int i = 0;
-        for (i = 0; i<= numere2.length; i++);
+        for (int i = 0; i < numere2.length; i++)
         {
-          suma += numere2[i];
+          suma += numere2[1];
         }
         float media = suma / numere2.length;
         return media;
     }
+
+    public void isParameterFromList(List<Integer> myList){
+        for(int i = 0; i < myList.size(); i++)
+        {
+            System.out.println(myList.get(i));
+        }
+    }
+
+    public void twoParameters(List<Integer> mySecondList, int numar){
+        mySecondList.add(numar);
+    }
+
+    public void listAndNumber (List<Integer> myThirdList, int numar) {
+        int i=0;
+        int lungime = myThirdList.size();
+        for(i = numar; i < myThirdList.size(); i++)
+        {
+            System.out.println(myThirdList.get(i));
+        }
+
+    }
+
+    public void ReverseList (List<Integer> myList) {
+        int lungime = myList.size();
+        for(int i = myList.size() - 1; i >= 0; i--)
+        {
+            System.out.println(myList.get(i));
+        }
+
+    }
+
+    public void ReplaceString (List<String> myList, int position, String text) {
+        myList.set(position, text);
+    }
+
+    public List<Integer> SetFirstElement (List<Integer> myList, int number) {
+        List<Integer> resultList = new ArrayList<>();
+        resultList.add(number);
+        for(int i = 0; i < myList.size(); i++){
+            resultList.add(myList.get(i));
+        }
+        return  resultList;
+    }
+
+
+
+
 
 
 
